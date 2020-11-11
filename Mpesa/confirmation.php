@@ -1,6 +1,6 @@
 <?php
 
-    # if this is your first time, you might need to check the directory 'Tutorial 1'  File first.
+    
     require 'dbconnect.php';
     header("Content-Type: application/json");
     
@@ -10,7 +10,7 @@
         exit();
     }
 
-    if ($_GET["token"]!='c9b10b9a7b1f4ff9824743cc741eaea29c4e5e8880502bab86f5e87b1b1d6e7c$')
+    if ($_GET["token"]!='$K4t13B3maL0mLcrackme')
     {
         echo "Invalid authorization";
         exit();
