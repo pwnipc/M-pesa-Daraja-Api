@@ -16,16 +16,13 @@ function insert_response($jsonMpesaResponse){
 	* 1.0 Create a database, or import the table mobile_payments.sql
 	* 1.1 Change the db config section below to reflect your system 
 	* 1.2 Ensure you have updated your access token to simulate the transaction
-	* 1.4 Simulate the transaction
-	*
-	* Kindly, note the changes on our simulate.php, otherwise this will not work as expected.
 	**/
 
 	# 1.1. Config Section
-		$dbName = 'champio2_chemistry';
+		$dbName = 'Your Database Password';
 		$dbHost = 'localhost';
-		$dbUser = 'champio2_champion';
-		$dbPass = 'tRG5*o]v8qiN';
+		$dbUser = 'Your Database Username';
+		$dbPass = 'Your Database Password';
 
 	# 1.1.1 establish a connection
 	try{
@@ -43,7 +40,7 @@ function insert_response($jsonMpesaResponse){
 		
 		echo ("<script LANGUAGE='JavaScript'>
                         window.alert('Payment Successful!!');
-                        window.location.href='https://championschemlab.co.ke/mpesa/mpesa.php';
+                        window.location.href='https://your website url/Mpesa/mpesa.php';
                         </script>");
 
 		# 1.1.2o Optional - Log the transaction to a .txt or .log file(May Expose your transactions if anyone gets the links, be careful with this. If you don't need it, comment it out or secure it)
