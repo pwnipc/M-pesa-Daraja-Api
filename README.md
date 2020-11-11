@@ -1,2 +1,1 @@
-# M-pesa-Daraja-Api
-M-Pesa Daraja Api  intergration using PHP
+# M-pesa Daraja Api  intergration using PHP
