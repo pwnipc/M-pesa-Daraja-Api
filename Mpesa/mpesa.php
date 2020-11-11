@@ -6,8 +6,8 @@
 
 
   // our file
-  $confirmation_url ="https://championschemlab.co.ke/mpesa/confirmation.php?token=c9b10b9a7b1f4ff9824743cc741eaea29c4e5e8880502bab86f5e87b1b1d6e7c$";
-  $validation_url   ="https://championschemlab.co.ke/mpesa/validation.php?token=c9b10b9a7b1f4ff9824743cc741eaea29c4e5e8880502bab86f5e87b1b1d6e7c$";
+  $confirmation_url ="https://your website url/Mpesa/confirmation.php?token=$K4t13B3maL0mLcrackme";
+  $validation_url   ="https://your website url/Mpesa/validation.php?token=$K4t13B3maL0mLcrackme";
 
   $stk_request_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
   $outh_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';
@@ -17,8 +17,9 @@
   $safaricom_party_b = "174379";
   $safaricom_bussiness_short_code = "174379";
 
-  $safaricom_Auth_key = "cR4CQw1GdIRM7zOaUBxDQdV5DjXhsU1v";
-  $safaricom_Secret = "rCmLHGvf7T2GNzWd";
+//Refer To README.md  step 2
+  $safaricom_Auth_key = "cR4CQw1GdIRM7zOaUBxDQdV5DjUhsU1d";
+  $safaricom_Secret = "rCmLHGvf7T2GNzWz";
 
 
 
@@ -58,8 +59,8 @@
     'PartyB' => '174379',
     'PhoneNumber' => $phone,
     'CallBackURL' => $confirmation_url,
-    'AccountReference' => 'Teren Teren!!',
-    'TransactionDesc' => ' Preimum Services Purchase'
+    'AccountReference' => 'Daraja Api Test',
+    'TransactionDesc' => ' Testing Testing :) '
   );
 
 
