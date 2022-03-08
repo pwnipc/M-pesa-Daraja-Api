@@ -27,31 +27,48 @@ While logged in on the Mpesa developer website, visit https://developer.safarico
 
 # Step 5.
 Create a Database Table to Store Mpesa Transactions
-(you can just import the mobile_payments.sql file in the assets folder ) or create a table using PHPMyAdmin as follows
+(you can just import the mobile_payments.sql [mobile_payments.sql](assets/mobile_payments.sql) file in the assets folder ) or create a table using PHPMyAdmin as follows
 -Name the table as mobile_payments
 -the table schema should look like this
 
+```
 Auto - Auto number
+
 TransactionType Varchar 40
+
 TransID  Varchar 40
+
 TransTime Varchar 40
+
 TransAmount double
+
 BusinessShortCode Varchar 15
+
 BillRefNumber Varchar 40
+
 InvoiceNumber Varchar 40
+
 ThirdPartyTransID Varchar 40
+
 MSISDN Varchar 20
+
 FirstName Varchar 60
+
 MiddleName Varchar 60
+
 LastName Varchar 60
+
 OrgAccountBalance Double
+```
 
 # Step 6.
  Creating a Folder on your Website to Store The M-pesa codes
- Have a look at the codes in the Mpesa Folder
+ Have a look at the code in the [Mpesa](Mpesa)  Folder
  
  # Step 7.
   Testing the Validation and Confirmation URLs Configurations
+  [TO DO]
  
  # Step 8.
   Moving Mpesa API to Production
+  [TO DO]
